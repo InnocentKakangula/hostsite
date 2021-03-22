@@ -1,0 +1,61 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	width: 1300px;
+	background: mediumseagreen;
+}
+h1{
+	background: black;
+	color: green;
+	text-align: center;
+	padding: 10px;
+	border-bottom: 2px dotted green;
+}
+
+
+body,section,div,footer{
+	display: block;
+}
+video{
+	width: 500px;
+}
+h2{
+	text-align: center;
+	background: brown;
+}
+button{
+	padding: 10px;
+	font: 15px green Algerian;
+	border: 2px solid grey;
+	border-radius: 45%;
+	position: absolute;
+		top: 800px;
+		left: 700px;
+		background: purple;
+	
+}
+button a{
+	text-decoration: none;
+	color: red;
+
+}
+#wrapper{
+	float: left;
+	border: 2px solid pink;
+	background: #66cccc;
+	width: 540px;
+	text-align: center;
+}
+#tutorials{
+	float: right;
+}
+footer{
+	clear: both;
+	max-width: 100%;
+	background: #102023;
+	color: wheat;
+	border-top: 2px dotted  #456734;
+	border-radius: 4px 4px;
+}

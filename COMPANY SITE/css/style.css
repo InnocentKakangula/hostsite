@@ -1,0 +1,112 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+h1{
+	font:bold 25px Tohoma;
+	font-family: Algerian;
+	font-size: 35px;
+}
+h3{
+	font:bold 20px Tohoma;
+	color: blue;
+	text-align: center;
+	padding: 5px;
+}
+#logo{
+	border-radius: 60%;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 990px;
+	top: 15px;
+}
+header, section, nav,footer{
+	display: block;
+}
+body{
+	text-align: center;
+	font:normal 14px Tahoma;
+
+}
+#container{
+	border: 1px solid black;
+	border-radius: 9px 9px 5px 5px;
+	width: 1300px;
+	margin: 6px auto;
+	text-align: left;
+}
+header{
+	text-align: center;
+	padding: 35px;
+	border: 2px solid grey;
+	border-radius: 9px 9px 0px 0px;
+	background: black;
+	color: wheat;
+}
+span{
+	color: blue;
+}
+nav{
+	padding: 15px;
+	background: grey;
+	padding: 20px;
+	text-align: center;
+	opacity: 0.7;
+
+}
+nav a{
+	padding: 15px;
+	text-decoration: none;
+	color: white;
+	font:bold 14px Arial black;
+
+}
+nav a:hover{
+	font-size: 15px;
+	background: #002312;
+	opacity: 0.5;
+	color: yellow;
+	padding: 20px;
+}
+#wrapper{
+	float: left;
+	width: 493px;
+
+}
+#pics{
+	width: 490px;
+	text-align: center;
+	
+}
+#userinput{
+	float: left;
+	border: 1px solid #66cccc;
+	border-radius: 0px 0px 5px 5px;
+	padding: 50px;
+	width: 300px;
+	height: 250px;
+	background:lightgreen;
+	margin-top:0px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+form table tr td{
+	font:18px bold Arial black;
+	padding: 10px;
+}
+aside{
+	float: left;
+	background: green;
+	border: 2px solid grey;
+	border-radius: 0px 0px 5px 5px;
+	height: 350px;
+}
+footer{
+	clear: both;
+	text-align: center;
+	background: #202011;
+	color: white;
+	padding: 15px
+
+}
