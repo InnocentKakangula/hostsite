@@ -1,0 +1,49 @@
+*{
+	padding: 0px;
+	margin:0px;
+	background: rgba( 234, 122,0,0.8);
+}
+body, nav, section, footer{
+	display: block;
+}
+
+#navigation{
+	text-align: center;
+	border: 2px solid red;
+	padding: 15px;
+	float: left;
+
+}
+h1{
+	text-align: center;
+	background: seagreen;
+	padding: 15px;
+	color: blue;
+}
+#navigation a{
+	text-decoration: none;
+	padding: 15px;
+	max-width: 400px;
+	display: block;
+	color: brown;
+	border-top: 1px solid red;
+}
+h3{
+	text-align: center;
+	color: wheat;
+}
+#audi{
+	padding-left: 700px;
+}
+section{
+	//float: left;
+	text-align: left;
+	
+	padding-left: 200px;
+}
+footer{
+	clear: both;
+	padding: 15px;
+	text-align: center;
+	background: rgba(234,100,0,0.8);
+}
